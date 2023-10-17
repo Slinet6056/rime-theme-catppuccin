@@ -1,0 +1,44 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Tue Oct 17 22:01:10 2023"
+  rime_version: 1.8.5
+patch:
+  preset_color_schemes:
+    Catppuccin:
+      {
+        author: "缄默线",
+        back_color: 0x3A2724,
+        border_color: 0x3A2724,
+        candidate_text_color: 0xF5D3CA,
+        comment_text_color: 0x9FD4EE,
+        hilited_back_color: 0x261918,
+        hilited_candidate_back_color: 0x644D49,
+        hilited_candidate_text_color: 0xD6DBF4,
+        hilited_comment_text_color: 0x9FD4EE,
+        hilited_label_color: 0xCBADA5,
+        hilited_text_color: 0xF2AB89,
+        label_color: 0xA28780,
+        name: "Catppuccin",
+        text_color: 0xF5D3CA,
+      }
+  style:
+    color_scheme: Catppuccin
+    font_face: "更纱黑体 UI SC"
+    font_point: 13
+    horizontal: true
+    inline_preedit: true
+    label_font_point: 13
+    layout:
+      {
+        border: 0,
+        spacing: 5,
+        candidate_spacing: 20,
+        hilite_spacing: 5,
+        hilite_padding: 2,
+        margin_x: 15,
+        margin_y: 12,
+        round_corner: 5,
+        corner_radius: 10,
+      }
