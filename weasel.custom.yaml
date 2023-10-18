@@ -2,7 +2,7 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.15.0.0
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Tue Oct 17 22:01:10 2023"
+  modified_time: "Wed Oct 18 11:46:38 2023"
   rime_version: 1.8.5
 patch:
   preset_color_schemes:
@@ -20,25 +20,33 @@ patch:
         hilited_label_color: 0xCBADA5,
         hilited_text_color: 0xF2AB89,
         label_color: 0xA28780,
+        shadow_color: 0xAA000000,
         name: "Catppuccin",
         text_color: 0xF5D3CA,
       }
   style:
     color_scheme: Catppuccin
     font_face: "更纱黑体 UI SC"
+    label_font_face: "更纱黑体 UI SC"
+    comment_font_face: "更纱黑体 UI SC"
     font_point: 13
+    label_font_point: 11
+    comment_font_point: 12
     horizontal: true
     inline_preedit: true
-    label_font_point: 13
     layout:
       {
-        border: 0,
+        align_type: bottom,
+        border: 2,
         spacing: 5,
         candidate_spacing: 20,
         hilite_spacing: 5,
-        hilite_padding: 2,
-        margin_x: 15,
-        margin_y: 12,
+        hilite_padding: 7,
+        margin_x: 0,
+        margin_y: 0,
         round_corner: 5,
         corner_radius: 10,
+        shadow_radius: 5,
+        shadow_offset_x: 3,
+        shadow_offset_y: 3,
       }
